@@ -61,3 +61,74 @@
 // let p=new Person("Saloni","Singh");
 // p.greet();
 
+// class Person{
+//     constructor(firstname,lastname){
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//     }
+//     greet(){
+//         console.log("Hi there!");
+//     }
+//     compliment(name,object){
+//         return "That's wonderful "+ object +", "+name;
+//     }
+// }
+//     let p =new Person("Saloni","Singh");
+//     let compliment=p.compliment("Harry","hat");
+//     console.log(compliment);
+
+//Properties sometimes aslso called fields hold the data of the class.
+
+// class Person{
+//     #firstname;
+//     #lastname;
+//     constructor(firstname,lastname){
+//         this.#firstname=firstname;
+//         this.#lastname=lastname;
+//     }
+// }
+// let p=new Person("Saloni","Singh");
+// console.log(p.firstname);
+
+// class Person{
+//     #firstname;
+//     #lastname;
+//     constructor(firstname,lastname){
+//         if(firstname.startsWith("S")){
+//         this.#firstname=firstname;
+//         }
+//         else{
+//             this.#firstname="S"+firstname;
+//         }
+//         this.#lastname=lastname;
+//     }
+// }
+// let p=new Person("Saloni","Singh");
+// console.log(p.firstname);
+
+// class Person{
+//     #firstname;
+//     #lastname;
+    // constructor(firstname,lastname){
+    //     this.#firstname=firstname;
+    //     this.#lastname=lastname;
+    // }
+    // get firstname(){
+    //     return this.#firstname;
+    // }
+    // set firstname(firstname){
+    //     this.#firstname=firstname;
+    // }
+    // get lastname(){
+    //     return this.#lastname;
+//     }
+//     set lastname(lastname){
+//         this.#lastname=lastname;
+//     }
+
+// }
+// let p=new Person("Saloni","Singh");
+// console.log(p.firstname);
+// p.firstname="Ananya";
+// p.lastname="Singh";
+// console.log(p.firstname);
