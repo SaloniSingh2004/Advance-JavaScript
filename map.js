@@ -110,14 +110,14 @@
 // console.log(country);
 
 //Alias Object Property
-const person={
-    firstname:"Saloni",
-    lastname:"Singh",
-    age:20
-};
-let{lastname,firstname,age,country="India"}=person;
-let{lastname:name}=person;
-console.log(firstname);
-console.log(name);
-console.log(age);
-console.log(country);
+// const person={
+//     firstname:"Saloni",
+//     lastname:"Singh",
+//     age:20
+// };
+// let{lastname,firstname,age,country="India"}=person;
+// let{lastname:name}=person;
+// console.log(firstname);
+// console.log(name);
+// console.log(age);
+// console.log(country);
